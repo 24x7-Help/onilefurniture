@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Happy Furniture</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(King\ Size\ Bed.jfif);
+      background-size: cover;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    header {
+      background-color: rgba(51, 51, 51, 0.9);
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .contact-container {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 600px; /* Limit the width for better presentation */
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .contact-container h2 {
+      text-align: center;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: #ff9800;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #e68900;
+    }
+
+    footer {
+      background-color: rgba(51, 51, 51, 0.9);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ff9800;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      color: #e68900;
+    }
+
+    .terms-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Us Section -->
+  <div class="contact-container">
+    <h2>Get in Touch</h2>
+    <div class="contact-info">
+      <p><strong>Address:</strong> 129 W San Antonio Ave, Ontario, California 91762, United States</p>
+      <p>
+      <p><strong>Email:</strong> r7687200@gmail.com</p>
+    </div>
+
+    <form class="contact-form" action="submit_form.php" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Happy Furniture. All rights reserved.</p>
+    <div class="terms-container">
+      <a href="termsandpolicy.html">Terms and Conditions</a> | 
+      <a href="termsandpolicy.html">Privacy Policy</a>
+    </div>
+    <a href="index.html">Back to top</a>
+  </footer>
+</body>
+</html>
